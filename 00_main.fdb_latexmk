@@ -1,14 +1,13 @@
 # Fdb version 4
-["biber 00_main"] 0 "00_main.bcf" "00_main.bbl" "00_main" 1765112644.18053 -1
-  "00_main.bcf" 1765112644.10579 106541 8b82898ebe3950b6f56288512c97b1fe "pdflatex"
-  "sample.bib" 1765026771.00522 423 bb4d4040f48aec7c0bc550ef99e007d4 ""
+["biber 00_main"] 1765113500.24607 "00_main.bcf" "00_main.bbl" "00_main" 1765113501.83879 0
+  "00_main.bcf" 1765113501.76613 106547 b47c59429c0bac814b8e04df151698ee "pdflatex"
   (generated)
   "00_main.bbl"
   "00_main.blg"
   (rewritten before read)
-["pdflatex"] 1765112643.2944 "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765112644.18085 0
+["pdflatex"] 1765113500.92494 "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765113501.83911 0
   "/etc/texmf/web2c/texmf.cnf" 1765019585.00569 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" 1765112643.11611 3294 16fea1676c811cdb1b4a922ff884eefb ""
+  "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" 1765113499.17111 3300 a5f0f5681f491d8fda3454e7adb4f154 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -114,11 +113,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765039315.30576 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765039404 8213967 8ae5ed765b03e4015d62913d5f7e427d ""
-  "00_main.aux" 1765112644.10401 1269 d9bfe4fe67824a362d63d58fa7f19bf6 "pdflatex"
-  "00_main.bbl" 1765111592.49077 466 ee04f40f768daeed26442158e95aba61 "biber 00_main"
-  "00_main.out" 1765112644.10439 1205 c13ab25b152310f5deb1340f0f94d34a "pdflatex"
-  "00_main.run.xml" 1765112644.1073 2322 1597fec9693a78691068d9f602dfc6d9 "pdflatex"
-  "00_main.tex" 1765112643.11611 3294 16fea1676c811cdb1b4a922ff884eefb ""
+  "00_main.aux" 1765113501.76432 1269 d9bfe4fe67824a362d63d58fa7f19bf6 "pdflatex"
+  "00_main.bbl" 1765113500.8953 466 ee04f40f768daeed26442158e95aba61 "biber 00_main"
+  "00_main.out" 1765113501.7657 1205 c13ab25b152310f5deb1340f0f94d34a "pdflatex"
+  "00_main.run.xml" 1765113501.76774 2328 5c05c1e573bd8c56e542029b5c447da9 "pdflatex"
+  "00_main.tex" 1765113499.17111 3300 a5f0f5681f491d8fda3454e7adb4f154 ""
   "01_abstract.tex" 1765112273.43974 69 c5b52a7948dc7a87bcea77e029725e05 ""
   "02_introduction.tex" 1765111281.14847 56 79bff2137d5d250e1a143dc6095a1fac ""
   "03_aim.tex" 1765111307.13941 86 bbe17e1b5691b9105eb5772477733dc2 ""
