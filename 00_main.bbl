@@ -151,6 +151,89 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
       \endverb
     \endentry
+    \entry{zhang_fragmangro_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=a5e927656d5ac890bf5073a4693ef124}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ruoxin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=11f65c60fda13e85e06c330e842be4c7}{%
+           family={An},
+           familyi={A\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=87c9430048656e81a0ef0169aec70aa5}{%
+           family={Cen},
+           familyi={C\bibinitperiod},
+           given={Mingcan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6396eaa69e1c798e2c8c503e9ce9067b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=63bde4227923855ef67ad04d4adbf6d3}{%
+           family={Huangfu},
+           familyi={H\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ff557930845ea98e9bf6b47db792e9bb}{%
+           family={Vinnakota},
+           familyi={V\bibinitperiod},
+           given={Sunny},
+           giveni={S\bibinitperiod}}}%
+        {{hash=62ce70146cbeb21a50dbb722f2a2fc40}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Shuxiang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{fullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{fullhashraw}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{bibnamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authorbibnamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authornamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authorfullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{authorfullhashraw}{4f1d3980189952065c399e2e7f5c5f50}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Monitoring fragmented mangrove ecosystems presents significant challenges due to their sparse distribution and the limitations of traditional detection methods, which often suffer from poor convergence and high rates of false positives and false negatives. To address these issues, we propose {FragMangro}, a cross-domain zero-shot detection model designed to enhance the accuracy and generalization of mangrove detection. {FragMangro} integrates parallel multi-scale convolution for progressive dimensional upscaling, improving spectral feature extraction. Additionally, it employs a dynamic learning rate and iterative control algorithm, which adaptively adjusts learning rates and training epochs based on loss monitoring to prevent suboptimal convergence. We conducted extensive experiments in three major mangrove reserves in Guangxi, China. The results demonstrate that {FragMangro} achieves over 98\% accuracy, an average F1 Score exceeding 85\%, and the Intersection over Union({IoU}) surpassing 74\%, significantly outperforming conventional methods such as support vector machines ({SVM}), random forests ({RF}), and k-nearest neighbors ({KNN}). Specifically, in the Beilun estuary, {FragMangro} exhibits a 0.96\% improvement in accuracy over {RF}, a 17.24\% higher F1 Score than {SVM}, and an 18.08\% higher {IoU} than {KNN}. Furthermore, the model’s adaptive learning rate and dynamic adjustment strategy enhance convergence efficiency and feature representation. {FragMangro} serves as an effective tool for ecological monitoring and mangrove conservation, with broader implications for environmental protection and sustainable ecosystem management.}
+      \field{day}{20}
+      \field{issn}{2213-1248}
+      \field{journaltitle}{Journal of King Saud University Computer and Information Sciences}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{4}
+      \field{shortjournal}{J. King Saud Univ. Comput. Inf. Sci.}
+      \field{shorttitle}{{FragMangro}}
+      \field{title}{{FragMangro}: A cross-domain zero-shot model for monitoring fragmented mangrove ecosystems}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{37}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{46}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s44443-025-00053-y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/NX5EJ5ZX/Zhang et al. - 2025 - FragMangro A cross-domain zero-shot model for monitoring fragmented mangrove ecosystems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s44443-025-00053-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s44443-025-00053-y
+      \endverb
+      \keyw{Adaptive learning rate and iteration rounds,Attention fully convolutional network,Deep learning,Scattered mangroves,Zero-shot detection}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
