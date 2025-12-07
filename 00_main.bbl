@@ -92,6 +92,65 @@
       \endverb
       \keyw{remote sensing,biodiversity conservation,forests,geographical distribution,land degradation,landscapes,spatial variation,species diversity,trees}
     \endentry
+    \entry{li_mapping_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2320dd834b418dabf2ec4b7b29d2bc95}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiaosi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=9a8f1fe763bf088cb659edc818393df0}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Frankie\bibnamedelimb Kwan\bibnamedelima Kit},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=33bfab495e04c8a8f27f1c6f2e66fd6a}{%
+           family={Fung},
+           familyi={F\bibinitperiod},
+           given={Tung},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{fullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{fullhashraw}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{bibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorbibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authornamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorfullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorfullhashraw}{d7be6bbacc4394bc66006e58d2d46634}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding species distribution and canopy structure of mangrove forests is imperative for flora and fauna conservation in mangrove habitats. However, most mangrove studies focused on the top canopy layer without exploring the vertical structure of mangroves. This paper presents multi-layered mangrove mapping which considered both overstory and understory detection and species classification using multispectral {WorldView}-3 ({WV}-3) data, airborne hyperspectral images ({HSI}), and {LiDAR} point cloud. First, {LiDAR} returns were stratified into the overstory and understory by analyzing the profile of return height, which helped understand the vertical structure of the mangrove stands. Second, three classification algorithms Random Forest ({RF}), Support Vector Machine ({SVM}), and Convolutional Neural Network ({CNN}) were compared by applying {WV}-3, {HSI}, {LiDAR} data, and their combinations to map seven vegetative species. Feature selection was conducted to identify important features and the optimal feature size prior to classification tasks. The measured and estimated understory canopy heights reached a high correlation coefficient of 0.71, which demonstrated the effectiveness of using {LiDAR} data and the proposed procedure to stratify multi-layered canopies. The combined {HSI} and {LiDAR} data produced satisfactory results by the three classifiers with overall accuracy ({OA}) varying from 0.86 to 0.88. And the species was also accurately mapped by integrating {WV}-3 and {LiDAR} data using both {RF} and {SVM} algorithms with {OA} attaining between 0.84 and 0.86. The results of this study highlight that (1) {LiDAR} data provided superior information to map the vertical structure of multi-layered mangroves, which provided valuable information to classify single-layered and dual-layered Kandelia obovata with understory beneath; (2) the combination of spectral and {LiDAR} features improved mangrove species classification; (3) and species mapping results derived from combined datasets appeared to be more influential by {LiDAR} features when using {RF} and {SVM}, but spectral features played a more important role in {CNN}.}
+      \field{issn}{00344257}
+      \field{journaltitle}{Remote Sensing of Environment}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Remote Sensing of Environment}
+      \field{title}{Mapping multi-layered mangroves from multispectral, hyperspectral, and {LiDAR} data}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{258}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{112403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rse.2021.112403
+      \endverb
+      \verb{file}
+      \verb PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/XMUAX6CS/Li et al. - 2021 - Mapping multi-layered mangroves from multispectral, hyperspectral, and LiDAR data.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
