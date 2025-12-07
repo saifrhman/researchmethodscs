@@ -3,18 +3,11 @@
 % DO NOT DELETE THE FIRST LINE!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Journal Article
-% LaTeX Template
-% Version 2.0 (February 7, 2023)
-%
 % This template originates from:
 % https://www.LaTeXTemplates.com
 %
 % Author:
-% Vel (vel@latextemplates.com)
-
-%
-% License:
+% Vel (vel@latextemplates.com)%% License:
 % CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 %
 % NOTE: The bibliography needs to be compiled using the biber engine.
@@ -22,7 +15,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%	HEADERS
 %----------------------------------------------------------------------------------------
 
 \documentclass[
@@ -31,6 +24,8 @@
 	unnumberedsections, % Comment to enable section numbering
 	twoside, % Two side traditional mode where headers and footers change between odd and even pages, comment this option to make them fixed
 ]{LTJournalArticle}
+
+
 
 \addbibresource{sample.bib} % BibLaTeX bibliography file
 
@@ -49,11 +44,12 @@
 % Authors are listed in a comma-separated list with superscript numbers indicating affiliations
 % \thanks{} is used for any text that should be placed in a footnote on the first page, such as the corresponding author's email, journal acceptance dates, a copyright/license notice, keywords, etc
 \author{%
-	Ainur Smailova\textsuperscript{1}, Laura Valentina Sierra\textsuperscript{1}, Pablo Ramos-Henao\textsuperscript{1} %\textbf{Received:} December 12, 2025, \textbf{Published:} December 14, 2023}
+	Ainur Smailova, Laura Valentina Sierra, Pablo Ramos-Henao, Saif Ur Rehman, Yan-Yu Lin %\textbf{Received:} December 12, 2025, \textbf{Published:} December 14, 2023}
 }
 
 % Affiliations are output in the \date{} command
 \date{\footnotesize\textsuperscript{\textbf{1}}School of Chemistry, The University of Michigan\\ \textsuperscript{\textbf{2}}Physics Department, The University of Wisconsin\\ \textsuperscript{\textbf{3}}Biological Sciences Department, The University of Minnesota}
+
 
 
 %----------------------------------------------------------------------------------------
@@ -66,12 +62,12 @@
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-\include{01_abstract}
-\include{02_introduction}
-\include{03_aim}
-\include{04_methodology}
-\include{05_findings}
-\include{06_conclusion}
+\input{01_abstract}
+\input{02_introduction}
+\input{03_aim}
+\input{04_methodology}
+\input{05_findings}
+\input{06_conclusion}
 
 %\printbibliography % Output the bibliography
 
