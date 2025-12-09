@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber 00_main"] 1765288094.03773 "00_main.bcf" "00_main.bbl" "00_main" 1765288570.2382 0
-  "00_main.bcf" 1765288570.15107 107495 7e3c86aad3fa1ddc92dabab0144baf5e "pdflatex"
+["biber 00_main"] 1765288094.03773 "00_main.bcf" "00_main.bbl" "00_main" 1765289876.97138 0
+  "00_main.bcf" 1765289876.88236 107495 7e3c86aad3fa1ddc92dabab0144baf5e "pdflatex"
   "z_references.bib" 1765040962.5861 61614 5fabbb8839c39c120f4ecc42d3a4577c ""
   (generated)
   "00_main.bbl"
   "00_main.blg"
   (rewritten before read)
-["pdflatex"] 1765288569.16336 "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765288570.23856 0
+["pdflatex"] 1765289875.93129 "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765289876.97174 0
   "/etc/texmf/web2c/texmf.cnf" 1765019585.00569 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/alonso/Wizardry/repositories/researchmethodscs/00_main.tex" 1765284245.81144 3075 be4331fe162d6fc67b7f3b9d5ef1253c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -127,15 +127,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765039315.30576 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765039404 8213967 8ae5ed765b03e4015d62913d5f7e427d ""
-  "00_main.aux" 1765288570.14907 2424 5d9776e7a038dc4eae6a2c11e2efe77c "pdflatex"
+  "00_main.aux" 1765289876.87936 2437 d4a83762ac379ea487cd4ef40e67e84e "pdflatex"
   "00_main.bbl" 1765288094.92918 23935 aba710be613454053dc6aea4598aa44d "biber 00_main"
-  "00_main.out" 1765288570.15007 1400 0bb28dabaf930584f63fd50092c4a43d "pdflatex"
-  "00_main.run.xml" 1765288570.15271 2328 5c05c1e573bd8c56e542029b5c447da9 "pdflatex"
+  "00_main.out" 1765289876.88036 1468 5112adac4dac55cd8f48a1b3f81ce25e "pdflatex"
+  "00_main.run.xml" 1765289876.88439 2328 5c05c1e573bd8c56e542029b5c447da9 "pdflatex"
   "00_main.tex" 1765284245.81144 3075 be4331fe162d6fc67b7f3b9d5ef1253c ""
-  "01_abstract.tex" 1765112273.43974 69 c5b52a7948dc7a87bcea77e029725e05 ""
-  "02_introduction.tex" 1765288568.96976 4460 99329fc619cb5a9d060cf037c0e7053d ""
+  "01_abstract.tex" 1765288969.51936 43 32a2244a5e6d1a8ea069c3d32981011c ""
+  "02_introduction.tex" 1765289013.67091 4466 3776b6a24b7df5203bb4ac07e83e2e35 ""
   "03_aim.tex" 1765282268.44153 991 2a74c22db11fa83fd61e13d5f5ea8a06 ""
-  "04_methodology.tex" 1765282268.44168 1192 af7ad0c616d246badecb2c29e8658a81 ""
+  "04_methodology.tex" 1765289875.74894 998 830c4c748f1e8e28a38844c9a2cdbd54 ""
   "05_findings.tex" 1765282268.44179 576 f9f9d308e92b3f49a0d907c93209d6eb ""
   "06_conclusion.tex" 1765036408.90049 20 b50204e17c0a475d3d65191e029fdf1d ""
   "LTJournalArticle.cls" 1765026771.00514 9784 e38e4f05326438c9cfb0a6c6bf9f0764 ""
