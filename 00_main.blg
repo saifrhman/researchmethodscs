@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '00_main.blg'
-[63] biber:340> INFO - === Tue Dec  9, 2025, 12:15:52
-[74] Biber.pm:419> INFO - Reading '00_main.bcf'
-[121] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[131] Biber.pm:4419> INFO - Processing section 0
-[141] Biber.pm:4610> INFO - Looking for bibtex file 'z_references.bib' for section 0
-[146] bibtex.pm:1713> INFO - LaTeX decoding ...
-[224] bibtex.pm:1519> INFO - Found BibTeX data source 'z_references.bib'
-[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[312] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[312] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[320] bbl.pm:660> INFO - Writing '00_main.bbl' with encoding 'UTF-8'
-[324] bbl.pm:763> INFO - Output to 00_main.bbl
+[64] biber:340> INFO - === Tue Dec  9, 2025, 12:43:50
+[77] Biber.pm:419> INFO - Reading '00_main.bcf'
+[126] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[137] Biber.pm:4419> INFO - Processing section 0
+[145] Biber.pm:4610> INFO - Looking for bibtex file 'z_references.bib' for section 0
+[151] bibtex.pm:1713> INFO - LaTeX decoding ...
+[235] bibtex.pm:1519> INFO - Found BibTeX data source 'z_references.bib'
+[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[332] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[332] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[340] bbl.pm:660> INFO - Writing '00_main.bbl' with encoding 'UTF-8'
+[344] bbl.pm:763> INFO - Output to 00_main.bbl
