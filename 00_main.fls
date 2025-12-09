@@ -268,12 +268,12 @@ INPUT ./02_introduction.tex
 INPUT ./02_introduction.tex
 INPUT ./02_introduction.tex
 INPUT 02_introduction.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb9e.tfm
 INPUT ./03_aim.tex
 INPUT ./03_aim.tex
 INPUT ./03_aim.tex
 INPUT ./03_aim.tex
 INPUT 03_aim.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb9e.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb9e.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
