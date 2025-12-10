@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber 00_main"] 1765392229.84124 "00_main.bcf" "00_main.bbl" "00_main" 1765392234.18921 0
-  "00_main.bcf" 1765392234.14508 108360 7bee7bd241e17102fb89f0ad72b91396 "pdflatex"
+["biber 00_main"] 1765392229.84124 "00_main.bcf" "00_main.bbl" "00_main" 1765392625.7227 0
+  "00_main.bcf" 1765392625.67923 108360 7bee7bd241e17102fb89f0ad72b91396 "pdflatex"
   "z_references.bib" 1765041604.77979 61614 5fabbb8839c39c120f4ecc42d3a4577c ""
   (generated)
   "00_main.bbl"
   "00_main.blg"
   (rewritten before read)
-["pdflatex"] 1765392233.40907 "/Users/lauravalentinasierrapena/Documents/Research Git/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765392234.18942 0
+["pdflatex"] 1765392624.93706 "/Users/lauravalentinasierrapena/Documents/Research Git/researchmethodscs/00_main.tex" "00_main.pdf" "00_main" 1765392625.72291 0
   "/Users/lauravalentinasierrapena/Documents/Research Git/researchmethodscs/00_main.tex" 1765387468.37363 3075 be4331fe162d6fc67b7f3b9d5ef1253c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -125,16 +125,16 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765023312 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "00_main.aux" 1765392234.14388 3201 4d6e644c33f4a0ad4aa9b85c36bb904f "pdflatex"
+  "00_main.aux" 1765392625.6782 3201 4d6e644c33f4a0ad4aa9b85c36bb904f "pdflatex"
   "00_main.bbl" 1765392230.88759 24582 6e233bf4f56f9ec9ee9ec5de096ebd20 "biber 00_main"
-  "00_main.out" 1765392234.14447 1469 22356d72d0ffb6ebe19a7fc0551252fe "pdflatex"
-  "00_main.run.xml" 1765392234.14554 2328 5c05c1e573bd8c56e542029b5c447da9 "pdflatex"
+  "00_main.out" 1765392625.67865 1469 22356d72d0ffb6ebe19a7fc0551252fe "pdflatex"
+  "00_main.run.xml" 1765392625.67967 2328 5c05c1e573bd8c56e542029b5c447da9 "pdflatex"
   "00_main.tex" 1765387468.37363 3075 be4331fe162d6fc67b7f3b9d5ef1253c ""
   "01_abstract.tex" 1765387468.3739 43 32a2244a5e6d1a8ea069c3d32981011c ""
   "02_introduction.tex" 1765387468.3743 4466 3776b6a24b7df5203bb4ac07e83e2e35 ""
   "03_aim.tex" 1765389011.29011 1152 cc1adf85bb2fa323a380c6292e616dd9 ""
   "04_methodology.tex" 1765392229.69624 1310 5d4c5fb7a5146487699c80f3c835d0cb ""
-  "05_findings.tex" 1765392202.23537 780 85d81de072fa03488ec6297b00e7a621 ""
+  "05_findings.tex" 1765392624.81706 786 f1984ceed3f7a4d9a5f78c3948ec6f9d ""
   "06_conclusion.tex" 1765038130.46016 20 b50204e17c0a475d3d65191e029fdf1d ""
   "Figures/prisma.png" 1765392229.69666 113340 0a7aaece5ba5c9781bd07768f7bf726f ""
   "LTJournalArticle.cls" 1765038130.47209 9784 e38e4f05326438c9cfb0a6c6bf9f0764 ""
