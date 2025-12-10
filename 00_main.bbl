@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{leal_state_2024}{report}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{leal_state_2024}{report}{}{}
       \name{author}{2}{}{%
         {{hash=faec0e483ac9f5d3083196daec137db0}{%
            family={Leal},
@@ -37,10 +37,12 @@
       }
       \strng{namehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \strng{fullhash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{fullhashraw}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \strng{bibnamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \strng{authorbibnamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \strng{authornamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \strng{authorfullhash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{authorfullhashraw}{5c43b8df499e3cb0448c1dd8fb7feaab}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -67,7 +69,7 @@
       \verb https://repository.si.edu/handle/10088/119867
       \endverb
     \endentry
-    \entry{worthington_harnessing_2020}{article}{}
+    \entry{worthington_harnessing_2020}{article}{}{}
       \name{author}{23}{}{%
         {{hash=5ca4d719ba1e775064f72399b4b876b8}{%
            family={Worthington},
@@ -189,10 +191,12 @@
       }
       \strng{namehash}{aee56b10d9cf502dfd6a949510239bb8}
       \strng{fullhash}{209b3e992292aa449168da105266a6e9}
+      \strng{fullhashraw}{209b3e992292aa449168da105266a6e9}
       \strng{bibnamehash}{aee56b10d9cf502dfd6a949510239bb8}
       \strng{authorbibnamehash}{aee56b10d9cf502dfd6a949510239bb8}
       \strng{authornamehash}{aee56b10d9cf502dfd6a949510239bb8}
       \strng{authorfullhash}{209b3e992292aa449168da105266a6e9}
+      \strng{authorfullhashraw}{209b3e992292aa449168da105266a6e9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -228,7 +232,7 @@
       \endverb
       \keyw{conservation,ecosystem services,mangrove,policy action,rehabilitation,remote sensing}
     \endentry
-    \entry{pimple_enhancing_2023}{article}{}
+    \entry{pimple_enhancing_2023}{article}{}{}
       \name{author}{6}{}{%
         {{hash=866e54023d5065dfac683cf3cb258654}{%
            family={Pimple},
@@ -263,10 +267,12 @@
       }
       \strng{namehash}{3adbd8756a86a468ece98a2c6367c2b2}
       \strng{fullhash}{fa5eb52bffd310147f75e2aa193ece62}
+      \strng{fullhashraw}{fa5eb52bffd310147f75e2aa193ece62}
       \strng{bibnamehash}{3adbd8756a86a468ece98a2c6367c2b2}
       \strng{authorbibnamehash}{3adbd8756a86a468ece98a2c6367c2b2}
       \strng{authornamehash}{3adbd8756a86a468ece98a2c6367c2b2}
       \strng{authorfullhash}{fa5eb52bffd310147f75e2aa193ece62}
+      \strng{authorfullhashraw}{fa5eb52bffd310147f75e2aa193ece62}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -299,7 +305,7 @@
       \endverb
       \keyw{remote sensing,biodiversity conservation,forests,geographical distribution,land degradation,landscapes,spatial variation,species diversity,trees}
     \endentry
-    \entry{li_mapping_2021}{article}{}
+    \entry{li_mapping_2021}{article}{}{}
       \name{author}{3}{}{%
         {{hash=2320dd834b418dabf2ec4b7b29d2bc95}{%
            family={Li},
@@ -319,10 +325,12 @@
       }
       \strng{namehash}{d7be6bbacc4394bc66006e58d2d46634}
       \strng{fullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{fullhashraw}{d7be6bbacc4394bc66006e58d2d46634}
       \strng{bibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
       \strng{authorbibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
       \strng{authornamehash}{d7be6bbacc4394bc66006e58d2d46634}
       \strng{authorfullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorfullhashraw}{d7be6bbacc4394bc66006e58d2d46634}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -356,7 +364,7 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
       \endverb
     \endentry
-    \entry{zhang_fragmangro_2025}{article}{}
+    \entry{zhang_fragmangro_2025}{article}{}{}
       \name{author}{7}{}{%
         {{hash=a5e927656d5ac890bf5073a4693ef124}{%
            family={Zhang},
@@ -396,10 +404,12 @@
       }
       \strng{namehash}{116edb862228b1a9d5a1323cfbef741f}
       \strng{fullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{fullhashraw}{4f1d3980189952065c399e2e7f5c5f50}
       \strng{bibnamehash}{116edb862228b1a9d5a1323cfbef741f}
       \strng{authorbibnamehash}{116edb862228b1a9d5a1323cfbef741f}
       \strng{authornamehash}{116edb862228b1a9d5a1323cfbef741f}
       \strng{authorfullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{authorfullhashraw}{4f1d3980189952065c399e2e7f5c5f50}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
