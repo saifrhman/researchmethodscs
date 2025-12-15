@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 DEC 2025 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 DEC 2025 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -542,7 +542,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 213.
 LaTeX Font Info:    Trying to load font information for T1+pplx on input line 55.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
-) (./00_main.aux)
+)
+No file 00_main.aux.
 \openout1 = `00_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -563,7 +564,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count424
 \scratchdimen=\dimen188
@@ -663,7 +664,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 55.
- (./00_main.out) (./00_main.out)
 \@outlinefile=\write4
 \openout4 = `00_main.out'.
 
@@ -704,7 +704,10 @@ Overfull \hbox (10.99103pt too wide) in paragraph at lines 58--58
 
 
 ]) (./04_methodology.tex
-<Figures/prisma.png, id=67, 930.47626pt x 976.64874pt>
+
+LaTeX Warning: Reference `prisma' on page 2 undefined on input line 6.
+
+<Figures/prisma.png, id=25, 930.47626pt x 976.64874pt>
 File: Figures/prisma.png Graphic file (type png)
 <use Figures/prisma.png>
 Package pdftex.def Info: Figures/prisma.png  used on input line 11.
@@ -713,12 +716,21 @@ Package pdftex.def Info: Figures/prisma.png  used on input line 11.
 
 
 
-[2 <./Figures/prisma.png>]) (./06_conclusion.tex
-Underfull \hbox (badness 7291) in paragraph at lines 14--1
-[]\T1/pplx/m/n/10 (+20) Another lim-i-ta-tion en-coun-tered was when
- []
+[2 <./Figures/prisma.png>]
 
-)
+./05_findings.tex:15: LaTeX Error: Unicode character   (U+2003)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15  
+        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) (./06_conclusion.tex)
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -740,25 +752,43 @@ Underfull \hbox (badness 1325) in paragraph at lines 72--72
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `00_main.out' has not changed.
-(rerunfilecheck)             Checksum: 22356D72D0FFB6EBE19A7FC0551252FE;1469.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `00_main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `00_main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  22356D72D0FFB6EBE19A7FC0551252FE;1469.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                00_main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to '00_main.run.xml'.
 \openout1 = `00_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21855 strings out of 473190
- 383695 string characters out of 5715801
- 1249099 words of memory out of 5000000
- 44484 multiletter control sequences out of 15000+600000
- 628960 words of font info for 330 fonts, out of 8000000 for 9000
+ 21850 strings out of 473190
+ 383544 string characters out of 5715801
+ 1248418 words of memory out of 5000000
+ 44471 multiletter control sequences out of 15000+600000
+ 630137 words of font info for 339 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,12n,95p,2355b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,12n,95p,2355b,1407s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 00_main.pdf (3 pages, 202800 bytes).
+Output written on 00_main.pdf (3 pages, 202384 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 110 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  26 named destinations out of 1000 (max. 500000)
- 103006 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 107014 words of extra memory for PDF output out of 128383 (max. 10000000)
 
