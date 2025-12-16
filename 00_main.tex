@@ -1,0 +1,72 @@
+% !TEX root = main.tex
+
+% DO NOT DELETE THE FIRST LINE!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)%% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+% NOTE: The bibliography needs to be compiled using the biber engine.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Paper size, use either a4paper or letterpaper
+	10pt, % Default font size, can also use 11pt or 12pt, although this is not recommended
+	unnumberedsections, % Comment to enable section numbering
+	twoside, % Two side traditional mode where headers and footers change between odd and even pages, comment this option to make them fixed
+]{LTJournalArticle}
+
+\addbibresource{z_references.bib} % BibLaTeX bibliography file
+
+\runninghead{} % A shortened article title to appear in the running head, leave this command empty for no running head
+
+\footertext{\textit{University of Liverpool} (2025)} % Text to appear in the footer, leave this command empty for no footer text
+
+\setcounter{page}{1} % The page number of the first page, set this to a higher number if the article is to be part of an issue or larger work
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{Geographical Data and Computational Tools \\ for Determining Restoration Priorities \\ in Mangrove Ecosystems} % Article title, use manual lines breaks (\\) to beautify the layout
+
+% Authors are listed in a comma-separated list with superscript numbers indicating affiliations
+% \thanks{} is used for any text that should be placed in a footnote on the first page, such as the corresponding author's email, journal acceptance dates, a copyright/license notice, keywords, etc
+\author{%
+	Ainur Smailova, Laura Valentina Sierra, Pablo Ramos-Henao\\Saif Ur Rehman, Yan-Yu Lin %\textbf{Received:} December 12, 2025, \textbf{Published:} December 14, 2023}
+}
+
+% Affiliations are output in the \date{} command
+\date{\footnotesize\textsuperscript{\textbf{*}} Department of Computer Science, University of Liverpool}
+
+%using microtype package for better typography
+\usepackage{microtype}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Output the title section
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+\input{01_abstract}
+\input{02_introduction}
+\input{03_aim}
+\input{04_methodology}
+\input{05_findings}
+\input{06_conclusion}
+
+
+\printbibliography % Output the bibliography
+%----------------------------------------------------------------------------------------
+\end{document} %

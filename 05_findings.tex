@@ -1,8 +1,74 @@
 \section*{Findings}
-This is the section for findings
+The reviewed literature demonstrates substantial progress in the use of geospatial data and computational methods for assessing mangrove extent, condition, and change. Advances in satellite remote sensing, cloud computing platforms, and machine learning have enabled large-scale and high-frequency monitoring of mangrove ecosystems (Worthington et al., 2020; Leal and Spalding, 2024). However, despite improved data availability and increasingly sophisticated models, most studies remain narrowly focused on specific regions, sensors, or ecological attributes, limiting their applicability for holistic restoration prioritisation.
+
+Across studies, optical multispectral imagery (e.g., Landsat and Sentinel-2) remains the most widely used data source due to its global coverage and long temporal archives (Bunting et al., 2022; Wu et al., 2025). Synthetic Aperture Radar (SAR) has become increasingly important in cloud-prone tropical regions, where persistent atmospheric obstruction limits optical data availability (Ghorbanian et al., 2025). LiDAR, particularly airborne and UAV-based systems, provides high-fidelity three-dimensional information on canopy height and vertical structure but is generally restricted to local or regional scales (Li et al., 2021; Mangrove Tree Height Growth Monitoring, 2023).
+
+From a computational perspective, classical machine learning models such as Random Forest (RF) and Support Vector Machines (SVM) remain dominant in many applications due to their robustness and interpretability (Pham et al., 2019; Aparicio and Viodor, 2025). In parallel, deep learning models—particularly convolutional neural networks (CNNs)—have demonstrated superior performance in high-resolution mangrove mapping and spatiotemporal change detection (Zhang et al., 2025; FragMangro, 2025). Nevertheless, most models are trained and evaluated within single geographic contexts and rely on a limited subset of available sensor modalities, resulting in fragmented analytical pipelines rather than integrated forest assessment frameworks.
+
+Importantly, few studies explicitly connect geospatial model outputs to restoration decision-making criteria, such as long-term ecosystem resilience, species suitability, or carbon recovery potential. This disconnect between technical performance and ecological utility is a recurring limitation identified in this review.
 \subsection{Geological Survery Tools}
-This is the section for geological survery tools
+Mangrove ecosystem analysis relies on a diverse range of geospatial data acquisition technologies, each capturing different structural, spectral, and functional characteristics of the forest. No single sensing modality provides a complete representation of mangrove ecosystems, making multi-sensor integration increasingly necessary (Emerging Frontiers in Ecosystem Monitoring, 2023).
+
+Optical multispectral sensors, including Landsat and Sentinel-2, are widely used for mapping mangrove extent, vegetation indices, and phenological dynamics (Bunting et al., 2022). Sentinel-2’s red-edge bands have been shown to improve discrimination between mangroves and adjacent vegetation, particularly in intertidal zones (Zhang et al., 2021). However, optical data are strongly affected by cloud cover and atmospheric conditions, limiting their reliability in tropical regions (Zhang et al., 2025).
+
+Synthetic Aperture Radar (SAR) sensors, such as Sentinel-1 and ALOS PALSAR, provide cloud-independent observations and are sensitive to vegetation structure, moisture content, and inundation dynamics (Ghorbanian et al., 2025). SAR has proven particularly effective for mangrove delineation in persistently cloudy regions and for detecting fragmented or narrow forest patches that may be missed by optical imagery (Can SAR Enhance Mangrove Detection?, 2022). However, SAR alone provides limited spectral information and is less effective for species-level or biochemical analyses.
+
+LiDAR systems enable direct measurement of canopy height, vertical stratification, and aboveground biomass, offering critical insights into forest structure and carbon stocks (Li et al., 2021; Plot-Level Biomass Estimates, 2020). Despite their accuracy, LiDAR datasets are spatially sparse and costly, restricting their operational use in global or national-scale restoration planning.
+
+Hyperspectral and thermal infrared (IR) sensors provide complementary information on leaf chemistry, physiological stress, and surface temperature, which are linked to mangrove health and environmental constraints (Farella et al., 2022; Fu et al., 2025). These modalities are particularly valuable for detecting early stress signals that may not be visible in structural or multispectral data alone.
+
+UAV-based platforms offer ultra-high spatial resolution and flexibility for local-scale validation and restoration monitoring but lack scalability (Quantifying Mangrove Carbon Assimilation Using UAV Imagery, 2022).
+
+Collectively, these tools provide partial and complementary views of mangrove ecosystems. Their isolated use, however, limits the ability to capture the full structural–functional–temporal complexity required for robust restoration prioritisation.
 \subsection{Computational Analysis Techniques}
-This is the section for computational analysis techniques
+The computational analysis of mangrove geospatial data has evolved from pixel-based classification toward advanced machine learning and deep learning approaches. Random Forest remains the most commonly used algorithm due to its robustness, ability to handle nonlinear relationships, and relatively low sensitivity to noise (Pham et al., 2019; Aparicio and Viodor, 2025). RF models frequently achieve high overall accuracy (>85 percent) for mangrove extent classification but show limited performance when predicting continuous structural variables such as canopy height or biomass (Li et al., 2021).
+
+Support Vector Machines and Maximum Entropy (MaxEnt) models are often applied in species distribution and habitat suitability modelling, particularly when training data are sparse (Aparicio and Viodor, 2025). While effective in constrained settings, these models typically ignore spatial context and struggle to scale to large, heterogeneous landscapes.
+
+Convolutional Neural Networks (CNNs) have become the dominant deep learning paradigm for high-resolution mangrove mapping and spatiotemporal analysis. CNN-based architectures, including U-Net and ResNet variants, have demonstrated superior performance in detecting fragmented mangrove patches and modelling temporal dynamics from multi-date imagery (Zhang et al., 2025; FragMangro, 2025). Extensions such as ConvLSTM models further enable the integration of temporal information, improving change detection and growth monitoring (Jamaluddin et al., 2024).
+
+More recently, transformer-based and attention-driven architectures have emerged as powerful tools for multimodal remote sensing analysis. Bahaduri et al. (2024) introduced a Cross-Attention Multimodal Transformer (CA-MMT) that performs modality fusion at the channel level, allowing fine-grained alignment and interaction across heterogeneous inputs. By explicitly modelling cross-modal relationships, CA-MMT architectures overcome limitations of late-fusion or feature-concatenation approaches commonly used in earlier studies.
+
+Despite these advances, the application of multimodal deep learning in mangrove research remains limited, and most studies focus on single tasks (e.g., classification or height estimation) rather than integrated forest assessment.
 \subsection{Research Gaps}
-This is the section where we highlight research gaps that we found in our review
+Regional Bias
+
+A pronounced regional bias persists in mangrove remote sensing and modelling research. The majority of studies are concentrated in Asia, particularly China, India, and Southeast Asia, with comparatively limited representation from Africa, the Middle East, and parts of Latin America (Wu et al., 2025; Leal and Spalding, 2024). Even within heavily studied regions, analyses are often restricted to a small number of sites.
+
+Most computational models are trained and validated within a single geographic context, resulting in poor generalisation when applied to regions with different species compositions, tidal regimes, or geomorphological conditions (FragMangro, 2025). Only one identified study explicitly applied transfer learning across regions, focusing on biochemical trait estimation using hyperspectral data from multiple sites within China (Fu et al., 2025). This work did not address structural, spatial, or multimodal forest attributes and therefore does not resolve broader generalisation challenges.
+
+The lack of cross-regional validation and globally representative training datasets significantly limits the deployment of AI-driven tools for international mangrove restoration initiatives.
+
+Lack of a Unified Multimodal Forest Framework
+
+A central gap identified in this review is the absence of a unified multimodal forest framework capable of integrating complementary geospatial data sources into a coherent representation of mangrove ecosystems. Existing studies typically fuse a limited subset of modalities—such as optical and SAR or multispectral and LiDAR—using task-specific pipelines (Li et al., 2021; Jamaluddin et al., 2024). While effective within narrow scopes, these approaches do not fully exploit the synergistic potential of combining spatiotemporal imagery, thermal infrared, SAR, LiDAR, and multispectral data.
+
+Li et al. (2021) demonstrated that integrating multispectral, hyperspectral, and LiDAR data significantly improves the mapping of multilayered mangrove structure, particularly canopy height and vertical complexity. Separately, Bahaduri et al. (2024) showed that channel-level cross-attention enables strong alignment between heterogeneous remote sensing modalities, allowing models to learn interdependencies that are lost in late-fusion architectures.
+
+Building on these advances, a unified multimodal framework that combines:
+
+spatiotemporal optical data for phenology and extent,
+
+SAR for structure and inundation dynamics,
+
+LiDAR for three-dimensional forest architecture,
+
+thermal infrared for physiological stress detection, and
+
+multispectral/hyperspectral data for biochemical and species-level information
+
+would enable a holistic representation of mangrove ecosystems that aligns structural, functional, and temporal dimensions.
+
+A Cross-Attention Multimodal Transformer (CA-MMT) is a particularly promising candidate for such integration, as its channel-level attention mechanism allows each modality to dynamically weight and interact with others based on contextual relevance (Bahaduri et al., 2024). This is especially advantageous in mangrove ecosystems, where the relevance of a modality (e.g., SAR vs. optical) may vary spatially and temporally due to cloud cover, tidal state, or vegetation density.
+
+However, it is important to emphasise that this research direction should not be limited to CA-MMT architectures alone. Other computational approaches—such as multimodal CNNs, graph-based models, hybrid ConvLSTM-Transformer pipelines, or ensemble learning frameworks—may also be effective depending on data availability, scale, and restoration objectives. The key gap lies not in the absence of a single “best” model, but in the lack of systematic, end-to-end frameworks designed explicitly to fuse multiple modalities for mangrove restoration prioritisation.
+
+Addressing this gap would significantly enhance the ecological relevance, scalability, and decision-support value of geospatial AI in mangrove conservation.
+
+Convolutional Neural Networks (CNNs) are the most widely used models in the field and form the foundation of most mangrove classification approaches. However, they struggle to detect small and fragmented mangroves resulting in incorrect classifications. This limitation leads to three sub-challenges: the difficulty of distinguishing small patches of mangroves in complex backgrounds; the inefficiency of manual labelling in deep learning model training; and models developed or trained using data from one specific geographic region failing to perform well when applied to a different region with different characteristics. \cite{zhang_fragmangro_2025}
+
+Another limitation is encountered when analysing underwater scanning. Satellite data relies primarily on visible light and some wavelengths which are typically scattered by water, resulting in poor accuracy for underwater mangroves. \cite{pimple_enhancing_2023}
+
+Furthermore, field validation and cross-referencing with local knowledge are necessary as some communities continue to explore methods for partial restoration. This can shape projects to maximise the benefits of identification and conservation of mangroves. \cite{leal_state_2024}
+
+% TODO: @saif — consider adding any region-specific observations or local case studies here.
