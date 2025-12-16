@@ -42,24 +42,26 @@
 % Authors are listed in a comma-separated list with superscript numbers indicating affiliations
 % \thanks{} is used for any text that should be placed in a footnote on the first page, such as the corresponding author's email, journal acceptance dates, a copyright/license notice, keywords, etc
 \author{%
-	Ainur Smailova, Laura Valentina Sierra, Pablo Ramos-Henao, Saif Ur Rehman, Yan-Yu Lin %\textbf{Received:} December 12, 2025, \textbf{Published:} December 14, 2023}
+	Ainur Smailova, Laura Valentina Sierra, Pablo Ramos-Henao\\Saif Ur Rehman, Yan-Yu Lin %\textbf{Received:} December 12, 2025, \textbf{Published:} December 14, 2023}
 }
 
 % Affiliations are output in the \date{} command
 \date{\footnotesize\textsuperscript{\textbf{*}} Department of Computer Science, University of Liverpool}
 
+%using microtype package for better typography
+\usepackage{microtype}
 
+%improving line breaking
+\setlength{\emergencystretch}{3em}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
 \maketitle % Output the title section
-
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
-
 \input{01_abstract}
 \input{02_introduction}
 \input{03_aim}
@@ -69,6 +71,5 @@
 
 
 \printbibliography % Output the bibliography
-
 %----------------------------------------------------------------------------------------
 \end{document} %

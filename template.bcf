@@ -2358,9 +2358,10 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">z_references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">sample.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+<<<<<<< HEAD:00_main.bcf
     <bcf:citekey order="1" intorder="1">leal_state_2024</bcf:citekey>
     <bcf:citekey order="2" intorder="1">worthington_harnessing_2020</bcf:citekey>
     <bcf:citekey order="3" intorder="1">worthington_harnessing_2020</bcf:citekey>
@@ -2379,6 +2380,13 @@
     <bcf:citekey order="16" intorder="1">zhang_fragmangro_2025</bcf:citekey>
     <bcf:citekey order="17" intorder="1">pimple_enhancing_2023</bcf:citekey>
     <bcf:citekey order="18" intorder="1">leal_state_2024</bcf:citekey>
+=======
+    <bcf:citekey order="1" intorder="1">Smith:2023qr</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Smith:2023qr</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">Smith:2024jd</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Smith:2024jd</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Smith:2024jd</bcf:citekey>
+>>>>>>> 058eaff00e6b3315ce0379c44ed69650bd9290c7:template.bcf
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
