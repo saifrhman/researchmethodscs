@@ -1,0 +1,825 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{leal_state_2024}{report}{}
+      \name{author}{2}{}{%
+        {{hash=faec0e483ac9f5d3083196daec137db0}{%
+           family={Leal},
+           familyi={L\bibinitperiod},
+           given={Maricé},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fbb1e98a1221df875f8b87db7636f3ec}{%
+           family={Spalding},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Global Mangrove Alliance}%
+      }
+      \strng{namehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{fullhash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{bibnamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{authorbibnamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{authornamehash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \strng{authorfullhash}{5c43b8df499e3cb0448c1dd8fb7feaab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{The State of the World’s Mangroves 2024}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5479/10088/119867
+      \endverb
+      \verb{file}
+      \verb PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/ZX88KKU7/Leal and Spalding - 2024 - The State of the World’s Mangroves 2024.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://repository.si.edu/handle/10088/119867
+      \endverb
+      \verb{url}
+      \verb https://repository.si.edu/handle/10088/119867
+      \endverb
+    \endentry
+    \entry{worthington_harnessing_2020}{article}{}
+      \name{author}{23}{}{%
+        {{hash=5ca4d719ba1e775064f72399b4b876b8}{%
+           family={Worthington},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ad4804dc3e5a84f5a7603782d91db55}{%
+           family={Andradi-Brown},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Dominic\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1e84fb7412edaf7e084c4ec16b8d9d4d}{%
+           family={Bhargava},
+           familyi={B\bibinitperiod},
+           given={Radhika},
+           giveni={R\bibinitperiod}}}%
+        {{hash=03f577acc42eb38a513618b943c5cb04}{%
+           family={Buelow},
+           familyi={B\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f885eb94f60b65a73b62af2cead2afe6}{%
+           family={Bunting},
+           familyi={B\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f03fe8862950b43d5d00a569fbd6ad0b}{%
+           family={Duncan},
+           familyi={D\bibinitperiod},
+           given={Clare},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2cafe8b6f325fc57c71d3b57b5e92345}{%
+           family={Fatoyinbo},
+           familyi={F\bibinitperiod},
+           given={Lola},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ca4b4da350acc03c6ce1aca992f9dbfb}{%
+           family={Friess},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=94834ea47beef6eb57be99a68f6dea84}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Liza},
+           giveni={L\bibinitperiod}}}%
+        {{hash=70e417e57f1fd3674127de52b7e112a9}{%
+           family={Hilarides},
+           familyi={H\bibinitperiod},
+           given={Lammert},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a4a0c1d1417075d57146378f3b346fb6}{%
+           family={Lagomasino},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f6d97bd38a51553472d1c1af8294c935}{%
+           family={Landis},
+           familyi={L\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3c11d642a1e49e524b398eaadf071764}{%
+           family={Longley-Wood},
+           familyi={L\bibinithyphendelim W\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5fb86f7b812a7c515204aa6244179568}{%
+           family={Lovelock},
+           familyi={L\bibinitperiod},
+           given={Catherine\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1a6299cbcaffc883c202b2ebaacc2835}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=158b72055ad8182c8fb4de30c73f7d3a}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5117812438dd6722733805e24030f243}{%
+           family={Rosenqvist},
+           familyi={R\bibinitperiod},
+           given={Ake},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa0389363b25365dd04ce4d5babc2ead}{%
+           family={Sievers},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46f762437f1e7a3f4f3d8054aa2fd83e}{%
+           family={Simard},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b0d73a1ff046badb96af00a3741d86ed}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=38cb51e6d20f77bec6720b47a5fb73c9}{%
+           family={Eijk},
+           familyi={E\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=e4c380efe03fceb998f99e0a2d9f3837}{%
+           family={Zganjar},
+           familyi={Z\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3f0a86384416fecc95c6f5a456f7442}{%
+           family={Spalding},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{aee56b10d9cf502dfd6a949510239bb8}
+      \strng{fullhash}{209b3e992292aa449168da105266a6e9}
+      \strng{bibnamehash}{aee56b10d9cf502dfd6a949510239bb8}
+      \strng{authorbibnamehash}{aee56b10d9cf502dfd6a949510239bb8}
+      \strng{authornamehash}{aee56b10d9cf502dfd6a949510239bb8}
+      \strng{authorfullhash}{209b3e992292aa449168da105266a6e9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mangrove forests are found on sheltered coastlines in tropical, subtropical, and some warm temperate regions. These forests support unique biodiversity and provide a range of benefits to coastal communities, but as a result of large-scale conversion for aquaculture, agriculture, and urbanization, mangroves are considered increasingly threatened ecosystems. Scientific advances have led to accurate and comprehensive global datasets on mangrove extent, structure, and condition, and these can support evaluation of ecosystem services and stimulate greater conservation and rehabilitation efforts. To increase the utility and uptake of these products, in this Perspective we provide an overview of these recent and forthcoming global datasets and explore the challenges of translating these new analyses into policy action and on-the-ground conservation. We describe a new platform for visualizing and disseminating these datasets to the global science community, non-governmental organizations, government officials, and rehabilitation practitioners and highlight future directions and collaborations to increase the uptake and impact of large-scale mangrove research.}
+      \field{day}{22}
+      \field{issn}{2590-3322}
+      \field{journaltitle}{One Earth}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{One Earth}
+      \field{title}{Harnessing Big Data to Support the Conservation and Rehabilitation of Mangrove Forests Globally}
+      \field{urlday}{29}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{429\bibrangedash 443}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.oneear.2020.04.018
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/JNHFDT5T/Worthington et al. - 2020 - Harnessing Big Data to Support the Conservation and Rehabilitation of Mangrove Forests Globally.pdf:application/pdf;ScienceDirect Snapshot:/home/alonso/snap/zotero-snap/common/Zotero/storage/JKU33XN2/S2590332220302050.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2590332220302050
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2590332220302050
+      \endverb
+      \keyw{conservation,ecosystem services,mangrove,policy action,rehabilitation,remote sensing}
+    \endentry
+    \entry{li_mapping_2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2320dd834b418dabf2ec4b7b29d2bc95}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiaosi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=9a8f1fe763bf088cb659edc818393df0}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Frankie\bibnamedelimb Kwan\bibnamedelima Kit},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=33bfab495e04c8a8f27f1c6f2e66fd6a}{%
+           family={Fung},
+           familyi={F\bibinitperiod},
+           given={Tung},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{fullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{bibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorbibnamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authornamehash}{d7be6bbacc4394bc66006e58d2d46634}
+      \strng{authorfullhash}{d7be6bbacc4394bc66006e58d2d46634}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding species distribution and canopy structure of mangrove forests is imperative for flora and fauna conservation in mangrove habitats. However, most mangrove studies focused on the top canopy layer without exploring the vertical structure of mangroves. This paper presents multi-layered mangrove mapping which considered both overstory and understory detection and species classification using multispectral {WorldView}-3 ({WV}-3) data, airborne hyperspectral images ({HSI}), and {LiDAR} point cloud. First, {LiDAR} returns were stratified into the overstory and understory by analyzing the profile of return height, which helped understand the vertical structure of the mangrove stands. Second, three classification algorithms Random Forest ({RF}), Support Vector Machine ({SVM}), and Convolutional Neural Network ({CNN}) were compared by applying {WV}-3, {HSI}, {LiDAR} data, and their combinations to map seven vegetative species. Feature selection was conducted to identify important features and the optimal feature size prior to classification tasks. The measured and estimated understory canopy heights reached a high correlation coefficient of 0.71, which demonstrated the effectiveness of using {LiDAR} data and the proposed procedure to stratify multi-layered canopies. The combined {HSI} and {LiDAR} data produced satisfactory results by the three classifiers with overall accuracy ({OA}) varying from 0.86 to 0.88. And the species was also accurately mapped by integrating {WV}-3 and {LiDAR} data using both {RF} and {SVM} algorithms with {OA} attaining between 0.84 and 0.86. The results of this study highlight that (1) {LiDAR} data provided superior information to map the vertical structure of multi-layered mangroves, which provided valuable information to classify single-layered and dual-layered Kandelia obovata with understory beneath; (2) the combination of spectral and {LiDAR} features improved mangrove species classification; (3) and species mapping results derived from combined datasets appeared to be more influential by {LiDAR} features when using {RF} and {SVM}, but spectral features played a more important role in {CNN}.}
+      \field{issn}{00344257}
+      \field{journaltitle}{Remote Sensing of Environment}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Remote Sensing of Environment}
+      \field{title}{Mapping multi-layered mangroves from multispectral, hyperspectral, and {LiDAR} data}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{258}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{112403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rse.2021.112403
+      \endverb
+      \verb{file}
+      \verb PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/XMUAX6CS/Li et al. - 2021 - Mapping multi-layered mangroves from multispectral, hyperspectral, and LiDAR data.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0034425721001218
+      \endverb
+    \endentry
+    \entry{giri_monitoring_2007}{article}{}
+      \name{author}{5}{}{%
+        {{hash=28ca3a3611f4889eff409fd8ef2baa52}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Chandra},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c2a66578785d0d02c7f4f5bca00e45e4}{%
+           family={Pengra},
+           familyi={P\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5934e937a0883e669ec329194c155c1f}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Zhiliang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=78470b40eec826fbb4194e42caf9bd4a}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Ashbindu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0eabdff3561dc0a78820c49fa9e6e72b}{%
+           family={Tieszen},
+           familyi={T\bibinitperiod},
+           given={Larry\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c0439ac2e2c09791a25f73e13c5d567}
+      \strng{fullhash}{8fe33651a808ad5da23471943ba6068b}
+      \strng{bibnamehash}{7c0439ac2e2c09791a25f73e13c5d567}
+      \strng{authorbibnamehash}{7c0439ac2e2c09791a25f73e13c5d567}
+      \strng{authornamehash}{7c0439ac2e2c09791a25f73e13c5d567}
+      \strng{authorfullhash}{8fe33651a808ad5da23471943ba6068b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mangrove forests in many parts of the world are declining at an alarming rate—possibly even more rapidly than inland tropical forests. The rate and causes of such changes are not known. The forests themselves are dynamic in nature and are undergoing constant changes due to both natural and anthropogenic forces. Our research objective was to monitor deforestation and degradation arising from both natural and anthropogenic forces. We analyzed multi-temporal satellite data from 1970s, 1990s, and 2000s using supervised classification approach. Our spatio-temporal analysis shows that despite having the highest population density in the world in its periphery, areal extent of the mangrove forest of the Sundarbans has not changed significantly (approximately 1.2\%) in the last ∼25years. The forest is however constantly changing due to erosion, aggradation, deforestation and mangrove rehabilitation programs. The net forest area increased by 1.4\% from the 1970s to 1990 and decreased by 2.5\% from 1990 to 2000. The change is insignificant in the context of classification errors and the dynamic nature of mangrove forests. This is an excellent example of the co-existence of humans with terrestrial and aquatic plant and animal life. The strong commitment of governments under various protection measures such as forest reserves, wildlife sanctuaries, national parks, and international designations, is believed to be responsible for keeping this forest relatively intact (at least in terms of area). While the measured net loss of mangrove forest is not that high, the change matrix shows that turnover due to erosion, aggradation, reforestation and deforestation was much greater than net change. The forest is under threat from natural and anthropogenic forces leading to forest degradation, primarily due to top-dying disease and over-exploitation of forest resources.}
+      \field{day}{1}
+      \field{issn}{0272-7714}
+      \field{journaltitle}{Estuarine, Coastal and Shelf Science}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shortjournal}{Estuarine, Coastal and Shelf Science}
+      \field{title}{Monitoring mangrove forest dynamics of the Sundarbans in Bangladesh and India using multi-temporal satellite data from 1973 to 2000}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{73}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 100}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ecss.2006.12.019
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/9KSCCI8Z/Giri et al. - 2007 - Monitoring mangrove forest dynamics of the Sundarbans in Bangladesh and India using multi-temporal s.pdf:application/pdf;ScienceDirect Snapshot:/home/alonso/snap/zotero-snap/common/Zotero/storage/UY6HE5KR/S0272771407000029.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0272771407000029
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0272771407000029
+      \endverb
+      \keyw{remote sensing,mangroves,mapping,monitoring,South Asia,Sundarbans}
+    \endentry
+    \entry{lassalle_advances_2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=99ded8f5fc88c8ccf9abdfa567dd106d}{%
+           family={Lassalle},
+           familyi={L\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e3319f04a28396a95aeffe3c88a22c15}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Matheus\bibnamedelima Pinheiro},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3f3864d80a6d1e12892b984b7da41ec9}{%
+           family={Cué\bibnamedelimb La\bibnamedelima Rosa},
+           familyi={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Laura\bibnamedelima Elena},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f5d16888c5c751d459cbaedbf8e52add}{%
+           family={Del'Papa\bibnamedelimb Moreira\bibnamedelima Scafutto},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b65d4aae43dc2e6854892a1ca1d37812}{%
+           family={De\bibnamedelima Souza\bibnamedelima Filho},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Carlos\bibnamedelima Roberto},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0f366b02ed19ff94cfb017e34d1351d}
+      \strng{fullhash}{db10498de7c8b44bd98683a3bf5bdc9a}
+      \strng{bibnamehash}{c0f366b02ed19ff94cfb017e34d1351d}
+      \strng{authorbibnamehash}{c0f366b02ed19ff94cfb017e34d1351d}
+      \strng{authornamehash}{c0f366b02ed19ff94cfb017e34d1351d}
+      \strng{authorfullhash}{db10498de7c8b44bd98683a3bf5bdc9a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study summarizes the advances in mangrove species mapping based on multispectral and hyperspectral imagery achieved over the last decade. The influence of species diversity and sensor specifications on the performances of various classification approaches are discussed. Based on the limitations of previous approaches, we propose a novel framework to map mangrove species at medium, high, and very-high spatial resolution using multispectral and hyperspectral images. The framework relies on a multitask convolutional neural network to achieve accurate classification at pixel and object (i.e. individual tree crown) level. It was successfully applied to the most comprehensive dataset of optical imagery ever collected over a mangrove forest, achieving accurate mapping of species on airborne ({OA} = 95 \%, Kappa = 0.93) and spaceborne imagery ({OA} and Kappa up to 97 \% and 0.95, respectively), including the newly-operating hyperspectral {DESIS} and {PRISMA} instruments. This study brings new insights into the role of spatial and spectral resolutions in mangrove species classification, particularly the importance of short-wave infrared bands. Multispectral imagery performs well at very-high to high resolutions (up to 10–20 m) but suffers from the lack of spectral information at medium resolution (30 m). Hyperspectral imagery provided the best results at sub-metric resolution (0.5 m) and satisfactory results at 30-m resolution ({OA} ≥ 85), and could benefit from implementing spectral unmixing in the latter case. Given the increasing attention accorded to mangroves, remote sensing will undoubtedly become an essential tool to monitor the diversity of these endangered ecosystems in the future. In that respect, efforts should concentrate on evaluating the capabilities of new and upcoming instruments and multisource data combination to improve mangrove species mapping and, more broadly, to meet conservation goals.}
+      \field{issn}{09242716}
+      \field{journaltitle}{{ISPRS} Journal of Photogrammetry and Remote Sensing}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{{ISPRS} Journal of Photogrammetry and Remote Sensing}
+      \field{shorttitle}{Advances in multi- and hyperspectral remote sensing of mangrove species}
+      \field{title}{Advances in multi- and hyperspectral remote sensing of mangrove species: A synthesis and study case on airborne and multisource spaceborne imagery}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{195}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{298\bibrangedash 312}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.isprsjprs.2022.12.003
+      \endverb
+      \verb{file}
+      \verb PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/J58K6386/Lassalle et al. - 2023 - Advances in multi- and hyperspectral remote sensing of mangrove species A synthesis and study case.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0924271622003185
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0924271622003185
+      \endverb
+    \endentry
+    \entry{ghorbanian_weakly_2025}{article}{}
+      \name{author}{5}{}{%
+        {{hash=41b9002a98e89c50e6f5d33d9e5f77de}{%
+           family={Ghorbanian},
+           familyi={G\bibinitperiod},
+           given={Arsalan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc2cda8f77849d61119d66c2a18accb6}{%
+           family={Ghorbanian},
+           familyi={G\bibinitperiod},
+           given={Ardalan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91e5e41b8355635612f85e83ed0e7a39}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Seyed\bibnamedelima Ali},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=01e18c1481dde59b83a94943d78d3275}{%
+           family={Mohammadzadeh},
+           familyi={M\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c88957fffa1f5d7ff1be8226e1994f81}{%
+           family={Naboureh},
+           familyi={N\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbd2c88db0d1fccf53ccad80953a633b}
+      \strng{fullhash}{a4101c7958022c9617dfd3acf20c6550}
+      \strng{bibnamehash}{bbd2c88db0d1fccf53ccad80953a633b}
+      \strng{authorbibnamehash}{bbd2c88db0d1fccf53ccad80953a633b}
+      \strng{authornamehash}{bbd2c88db0d1fccf53ccad80953a633b}
+      \strng{authorfullhash}{a4101c7958022c9617dfd3acf20c6550}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mangrove ecosystems are vital blue carbon habitats, and their accurate mapping and ongoing monitoring are essential for conserving their unique ecological and environmental benefits. This study employed a weakly supervised deep learning framework for semantic segmentation of the ecosystem by integrating time-series Sentinel-1 Synthetic Aperture Radar imagery with an existing ecosystem map as weak labels. This approach incorporates a U-Net architecture with an {EfficientNet}-B7 backbone for robust feature extraction, employs Test-Time Augmentation ({TTA}) with an ensemble strategy to enhance prediction stability, and validates the method’s temporal transferability across multiple years. The model achieved high accuracy in the baseline year (2020), with 95.56\% overall accuracy according to independent reference samples, and successfully generated noise-free maps despite imperfect training data. The {TTA} approach improved the final map both visually and statistically compared to a simple prediction approach. Visual comparisons with high-resolution satellite imagery, an existing ecosystem map, and a recent global mangrove extent dataset confirmed the superior performance of our proposed workflow in mangrove mapping. The temporal transferability of the model, examined in 2017 and 2023 using the baseline model with no modification, confirmed its applicability by generating the ecosystem maps meticulously, though the predictive uncertainty value increased. The generated multitemporal maps indicated a mangrove extent expansion of about 3.43\% between 2017 and 2023. This straightforward workflow facilitates automatic mangrove ecosystem mapping and updating while effectively reducing the need for frequent reference sample collection, especially in cloud-prone areas. The temporal capability of the approach offers practical solutions for large-scale mangrove ecosystem conservation initiatives.}
+      \field{issn}{2151-1535}
+      \field{journaltitle}{{IEEE} Journal of Selected Topics in Applied Earth Observations and Remote Sensing}
+      \field{title}{Weakly Supervised Semantic Segmentation of Mangrove Ecosystem Using Sentinel-1 {SAR} and Deep Convolutional Neural Networks}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{17497\bibrangedash 17512}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/JSTARS.2025.3586289
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/8RV8BAME/Ghorbanian et al. - 2025 - Weakly Supervised Semantic Segmentation of Mangrove Ecosystem Using Sentinel-1 SAR and Deep Convolut.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11072052
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11072052
+      \endverb
+      \keyw{Synthetic aperture radar,mangrove,Deep learning,Ecosystems,Accuracy,Sentinel-1,Land surface,Time series analysis,Deep convolutional neural network ({CNN}),Radar polarimetry,semantic segmentation,synthetic aperture radar ({SAR}),U-Net,Visualization,weak supervision,Weak supervision}
+    \endentry
+    \entry{deng_comparison_2023}{article}{}
+      \name{author}{8}{}{%
+        {{hash=cc14f7c723c79bdc6ee775f8631a214b}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Liwei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f571bb0fce43f7ee3a75225044d4171c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Bolin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=471c49dd15af676a5f58e1283eb635ee}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b74bf525c5936177baa0d9f362f55097}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hongchang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4781c42e169c246c010c5100fbd708e4}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=69f075be61b3c54b8a2e15efcee2cd56}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Mingming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f4a472be728dbfcb80d7af399e8e088}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Tengfang},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9f1b60e5ad3ceedf186b98fca8945f45}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Donglin},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfaaa78bcd100291cbd8637e5cb88a82}
+      \strng{fullhash}{d4ef70897eaf1a7bbcb89e3f0491c1b9}
+      \strng{bibnamehash}{bfaaa78bcd100291cbd8637e5cb88a82}
+      \strng{authorbibnamehash}{bfaaa78bcd100291cbd8637e5cb88a82}
+      \strng{authornamehash}{bfaaa78bcd100291cbd8637e5cb88a82}
+      \strng{authorfullhash}{d4ef70897eaf1a7bbcb89e3f0491c1b9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Collaboration between Light Detection and Ranging ({LiDAR}) point clouds and deep learning has been proven to be an effective approach for vegetation mapping. Current studies have predominantly focused on 2D vegetation mapping, whereas 3D mapping, which directly classifies point clouds at point level, offers a more comprehensive understanding of the stratified structural information of vegetation. However, there is a lack of research on 3D vegetation species mapping, and the disparities between 2D and 3D mapping in natural scenarios remain unclear. To resolve these issues, we compared the deep learning performance of 2D and 3D vegetation species mapping across three distinct natural scenes: karst wetland, mangrove forest, and hill forest. In addition, the 2D and 3D mapping in natural scenes are adversely affected by the elevated channel count of {LiDAR}-derived features and the extreme category imbalance in point cloud. To mitigate these challenges, we propose a novel Multi-resolution Feature Selection Network ({MrFSNet}) to select optimal feature combinations at different scales for better 2D mapping performance. Additionally, we introduce a novel Dynamic Weighted Sampling ({DWS}) strategy, which is combined with {KPConv} to address the extreme category imbalance present in 3D mapping. Results indicate that: (1) 3D vegetation species mapping exhibited the highest performance, achieving an {mF}1 of 89.78\% for karst wetland, 92.25\% for mangrove forest, and 92.05\% for hill forest. (2) 3D mapping outperformed 2D mapping, improving {mF}1 by 3.43\% to 27.08\%. (3) {MrFSNet} adaptively extracted optimal features at various scales and performed well with the limited training data in 2D vegetation mapping, resulting in a 1.66\%–18.46\% higher {mF}1 than that of Swin Transformer. (4) {DWS} effectively resolved the extreme category imbalance problem and produced 1.28\%–2.80\% higher {mF}1 than the non-{DWS} version in 3D vegetation mapping.}
+      \field{issn}{15698432}
+      \field{journaltitle}{International Journal of Applied Earth Observation and Geoinformation}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shortjournal}{International Journal of Applied Earth Observation and Geoinformation}
+      \field{title}{Comparison of 2D and 3D vegetation species mapping in three natural scenarios using {UAV}-{LiDAR} point clouds and improved deep learning methods}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{125}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103588}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jag.2023.103588
+      \endverb
+      \verb{file}
+      \verb PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/3G899SUX/Deng et al. - 2023 - Comparison of 2D and 3D vegetation species mapping in three natural scenarios using UAV-LiDAR point.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1569843223004120
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1569843223004120
+      \endverb
+    \endentry
+    \entry{gisgeography_multispectral_2014}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e797f903267c55882141d3c7ca691344}{%
+           family={{GISGeography}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e797f903267c55882141d3c7ca691344}
+      \strng{fullhash}{e797f903267c55882141d3c7ca691344}
+      \strng{bibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorbibnamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authornamehash}{e797f903267c55882141d3c7ca691344}
+      \strng{authorfullhash}{e797f903267c55882141d3c7ca691344}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multispectral vs Hyperspectral imagery. Hyperspectral contains hundreds of narrow bands. Multispectral usually consists of only 3 to 10 wider bands.}
+      \field{day}{23}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{Multispectral vs Hyperspectral Imagery Explained}
+      \field{titleaddon}{{GIS} Geography}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/alonso/snap/zotero-snap/common/Zotero/storage/E9KY6B8K/multispectral-vs-hyperspectral-imagery-explained.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://gisgeography.com/multispectral-vs-hyperspectral-imagery-explained/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/multispectral-vs-hyperspectral-imagery-explained/
+      \endverb
+    \endentry
+    \entry{kwon_can_2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6f471b3f369b2734b46fea06ed18c2da}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Soohyun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=65f91b585587c378f31404028db8c7a9}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Hyeon\bibnamedelima Kwon},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9f3d75e38b5579778534ce6e810289e2}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Chul-Hee},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \strng{fullhash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \strng{bibnamehash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \strng{authorbibnamehash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \strng{authornamehash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \strng{authorfullhash}{33eb45ac4c3907c23a7ea63b4e0e9198}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Mangrove forests are vital ecosystems with the highest global carbon absorption capacity, playing a crucial role in climate change mitigation. Therefore, their conservation and management are essential. However, as mangroves are primarily found in tropical regions, frequent cloud cover and limited accessibility pose significant challenges to effective monitoring using optical satellite imagery. In addition, many developing countries with extensive mangrove coverage face challenges in conducting precise monitoring due to limited technological infrastructure. To overcome these limitations, this study integrated open-access synthetic aperture radar ({SAR}) data with optical imagery to enhance the classification accuracy of mangrove forests in the Bali Denpasar–Badung region. The Sentinel-1 and Sentinel-2 datasets were used, and the U-Net deep learning model was employed for training and classification. A digital elevation model ({DEM}) from the Shuttle Radar Topography Mission ({SRTM}) was applied to exclude areas higher than 10 m above sea level, thereby improving the classification accuracy. Additionally, a time-series analysis was performed to assess changes in the mangrove distribution over the past decade, revealing a consistent increase in mangrove extent in the study area. The classification performance was evaluated using a confusion matrix, demonstrating that the combined {SAR}-optical model outperformed single-source models across all key metrics including precision, accuracy, recall, and F1-score. The findings highlight the effectiveness of integrating {SAR} and optical data for capturing the complex ecological and geographical characteristics of mangrove forests. Notably, {SAR} imagery, which is resistant to cloud cover, shows considerable potential for independent application in tropical mangrove monitoring, warranting further research to explore its capabilities in greater depth.}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{11}
+      \field{shorttitle}{Can Synthetic Aperture Radar Enhance the Quality of Satellite-Based Mangrove Detection?}
+      \field{title}{Can Synthetic Aperture Radar Enhance the Quality of Satellite-Based Mangrove Detection? A Focus on the Denpasar Region of Indonesia}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1812}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/rs17111812
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/2XTPDM3E/Kwon et al. - 2025 - Can Synthetic Aperture Radar Enhance the Quality of Satellite-Based Mangrove Detection A Focus on t.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-4292/17/11/1812
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-4292/17/11/1812
+      \endverb
+      \keyw{mangrove,synthetic aperture radar ({SAR}),U-Net,optical imagery,Sentinel}
+    \endentry
+    \entry{pimple_enhancing_2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=866e54023d5065dfac683cf3cb258654}{%
+           family={Pimple},
+           familyi={P\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+        {{hash=bef8798512d8465d4a170a604559e4cc}{%
+           family={Simonetti},
+           familyi={S\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=61017566f57bf9b00786d05324010520}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9384d3112d3d8d7a6daa243142b7d01c}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f62c83871e4f18fb83db1c9d0095ffe2}{%
+           family={Podest},
+           familyi={P\bibinitperiod},
+           given={Erika},
+           giveni={E\bibinitperiod}}}%
+        {{hash=797603f6422489a71d442888706011a6}{%
+           family={Gond},
+           familyi={G\bibinitperiod},
+           given={Valery},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3adbd8756a86a468ece98a2c6367c2b2}
+      \strng{fullhash}{fa5eb52bffd310147f75e2aa193ece62}
+      \strng{bibnamehash}{3adbd8756a86a468ece98a2c6367c2b2}
+      \strng{authorbibnamehash}{3adbd8756a86a468ece98a2c6367c2b2}
+      \strng{authornamehash}{3adbd8756a86a468ece98a2c6367c2b2}
+      \strng{authorfullhash}{fa5eb52bffd310147f75e2aa193ece62}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatiotemporal information on mangrove species assemblage of natural, disturbed, and rehabilitated is an essential prerequisite for effective strategies for biodiversity conservation and management. However, appropriate field‐based sampling strategies of spatial heterogeneity still hamper the detection of the species distribution and its temporal development. An increasing amount of remote sensing data seems the perfect way to tackle these challenges. With this article, we fill this gap by presenting a review of the challenges and limitations to assess the current status of species diversity. We conclude that species discrimination based on remote sensing techniques is still limited by atmospheric contamination and tidal fluctuations. The lack of accurate information on the spatiotemporal development of species diversity and forest structure further curtails an understanding of functional indicators and the predictive power of modeling approaches. Nevertheless, multi‐source remote‐sensing techniques could seemingly capture the landscape heterogeneity and support systematic sampling designs. Spatially balanced (systematic) training and validation data are necessary to compile robust spatiotemporal information, supporting reliable predictions for optimizing restoration efforts. A systematic sampling of spatiotemporal ecological information is vital to derive the historical state of mangroves, detecting their degradation, and predicting future patterns of species distribution that are generally crucial for restoration, and particularly to rehabilitate species diversity.}
+      \field{day}{1}
+      \field{issn}{1085-3278}
+      \field{journaltitle}{Land Degradation \& Development}
+      \field{month}{3}
+      \field{number}{5}
+      \field{shortjournal}{Land Degradation \& Development}
+      \field{title}{Enhancing monitoring of mangrove spatiotemporal tree diversity and distribution patterns}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{34}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1265\bibrangedash 1282}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/ldr.4537
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=1ac97efb-b02e-32b6-8ca3-f1f271c277bc
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=1ac97efb-b02e-32b6-8ca3-f1f271c277bc
+      \endverb
+      \keyw{remote sensing,biodiversity conservation,forests,geographical distribution,land degradation,landscapes,spatial variation,species diversity,trees}
+    \endentry
+    \entry{zhang_fragmangro_2025}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a5e927656d5ac890bf5073a4693ef124}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ruoxin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=11f65c60fda13e85e06c330e842be4c7}{%
+           family={An},
+           familyi={A\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=87c9430048656e81a0ef0169aec70aa5}{%
+           family={Cen},
+           familyi={C\bibinitperiod},
+           given={Mingcan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6396eaa69e1c798e2c8c503e9ce9067b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=63bde4227923855ef67ad04d4adbf6d3}{%
+           family={Huangfu},
+           familyi={H\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ff557930845ea98e9bf6b47db792e9bb}{%
+           family={Vinnakota},
+           familyi={V\bibinitperiod},
+           given={Sunny},
+           giveni={S\bibinitperiod}}}%
+        {{hash=62ce70146cbeb21a50dbb722f2a2fc40}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Shuxiang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{fullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \strng{bibnamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authorbibnamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authornamehash}{116edb862228b1a9d5a1323cfbef741f}
+      \strng{authorfullhash}{4f1d3980189952065c399e2e7f5c5f50}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Monitoring fragmented mangrove ecosystems presents significant challenges due to their sparse distribution and the limitations of traditional detection methods, which often suffer from poor convergence and high rates of false positives and false negatives. To address these issues, we propose {FragMangro}, a cross-domain zero-shot detection model designed to enhance the accuracy and generalization of mangrove detection. {FragMangro} integrates parallel multi-scale convolution for progressive dimensional upscaling, improving spectral feature extraction. Additionally, it employs a dynamic learning rate and iterative control algorithm, which adaptively adjusts learning rates and training epochs based on loss monitoring to prevent suboptimal convergence. We conducted extensive experiments in three major mangrove reserves in Guangxi, China. The results demonstrate that {FragMangro} achieves over 98\% accuracy, an average F1 Score exceeding 85\%, and the Intersection over Union({IoU}) surpassing 74\%, significantly outperforming conventional methods such as support vector machines ({SVM}), random forests ({RF}), and k-nearest neighbors ({KNN}). Specifically, in the Beilun estuary, {FragMangro} exhibits a 0.96\% improvement in accuracy over {RF}, a 17.24\% higher F1 Score than {SVM}, and an 18.08\% higher {IoU} than {KNN}. Furthermore, the model’s adaptive learning rate and dynamic adjustment strategy enhance convergence efficiency and feature representation. {FragMangro} serves as an effective tool for ecological monitoring and mangrove conservation, with broader implications for environmental protection and sustainable ecosystem management.}
+      \field{day}{20}
+      \field{issn}{2213-1248}
+      \field{journaltitle}{Journal of King Saud University Computer and Information Sciences}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{4}
+      \field{shortjournal}{J. King Saud Univ. Comput. Inf. Sci.}
+      \field{shorttitle}{{FragMangro}}
+      \field{title}{{FragMangro}: A cross-domain zero-shot model for monitoring fragmented mangrove ecosystems}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{37}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{46}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s44443-025-00053-y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/alonso/snap/zotero-snap/common/Zotero/storage/NX5EJ5ZX/Zhang et al. - 2025 - FragMangro A cross-domain zero-shot model for monitoring fragmented mangrove ecosystems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s44443-025-00053-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s44443-025-00053-y
+      \endverb
+      \keyw{Adaptive learning rate and iteration rounds,Attention fully convolutional network,Deep learning,Scattered mangroves,Zero-shot detection}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

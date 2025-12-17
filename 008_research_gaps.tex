@@ -1,0 +1,49 @@
+\section{Research Gaps}
+\subsection{Regional Bias}
+When models trained within a single geographic context are applied to new regions, performance degradation is expected due to strong domain shift in spectral, structural, and environmental characteristics; however, such cross-region evaluations are rarely reported in the mangrove literature, with only isolated studies explicitly addressing transfer learning or domain adaptation (Li et al., 2021; Fu et al., 2025; Leal \& Spalding, 2024; Wu et al., 2025).
+
+[Figure 4 placeholder: Regional distribution of mangrove studies and data availability]
+
+Mangrove ecosystems exhibit substantial regional heterogeneity in species composition, canopy architecture, sediment properties, tidal regimes, and anthropogenic pressure. These differences induce systematic variation in optical reflectance, SAR backscatter, thermal signatures, and structural metrics, resulting in significant covariate and concept shift across regions. As a result, models trained on data-rich regions—predominantly in Asia—may encode region-specific correlations rather than ecologically invariant representations.
+
+This imbalance is not solely a data availability issue but has direct implications for model development, as algorithms trained predominantly on data-rich regions may encode region-specific correlations rather than ecologically invariant representations. Addressing regional bias is therefore essential for both scientific validity and operational scalability, requiring systematic cross-region evaluation, domain adaptation, and transfer learning strategies.
+\subsection{Lack of a Unified Multimodal Forest Framework}
+A second major research gap is the absence of a unified multimodal forest framework capable of integrating complementary geospatial data sources into a coherent and ecologically meaningful representation of mangrove ecosystems.
+
+Each sensing modality captures a distinct and non-redundant component of forest condition:
+
+\begin{itemize}
+  \item Optical multispectral imagery encodes extent, canopy cover, and phenology (Bunting et al., 2022).
+  \item SAR captures structure, moisture, and inundation dynamics under all-weather conditions (Ghorbanian et al., 2025).
+  \item LiDAR provides direct measurements of three-dimensional canopy architecture and biomass (Li et al., 2021).
+  \item Thermal infrared data reveal physiological stress and hydrological anomalies (Farella et al., 2022).
+  \item Hyperspectral data support biochemical and species-level trait estimation (Fu et al., 2025).
+\end{itemize}
+
+When analysed independently, these modalities provide only partial views of ecosystem condition. Optical imagery may indicate intact canopy cover even under physiological stress, while LiDAR-derived height may not reflect hydrological constraints or thermal extremes. Restoration decisions based on single-modality analyses therefore risk misidentifying resilient or suitable restoration sites.
+
+Recent advances in multimodal representation learning provide a pathway toward addressing this limitation. Li et al. (2021) demonstrated that fusing multispectral, hyperspectral, and LiDAR data improves multilayer structural mapping, while Bahaduri et al. (2024) showed that channel-level cross-attention enables dynamic alignment between heterogeneous modalities. Channel-level fusion is particularly advantageous in mangrove ecosystems, where data relevance varies spatially and temporally due to cloud cover, tidal state, and sensor availability.
+
+Figure 5 illustrates a conceptual unified multimodal framework designed to integrate spatiotemporal optical data, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral inputs into a joint latent forest representation.
+[Figure 5 placeholder: Conceptual unified multimodal mangrove framework]
+
+
+Importantly, this review does not advocate for a single architectural solution. Cross-attention transformers, multimodal CNNs, graph-based models, hybrid ConvLSTM–Transformer pipelines, and ensemble approaches all represent viable pathways depending on data availability and restoration objectives. The critical gap lies not in the absence of a specific model, but in the lack of end-to-end, restoration-oriented multimodal frameworks explicitly designed to support generalisable and decision-relevant mangrove ecosystem assessment.
+
+\subsection{Limitations of CNN-Centric Approaches in Fragmented Mangrove Landscapes}
+
+Convolutional neural networks (CNNs) form the foundation of most deep learning-based mangrove classification and mapping approaches. While effective for large, contiguous forest stands, CNN-based pipelines often struggle to accurately detect small, fragmented, or narrow mangrove patches embedded within complex coastal backgrounds. This limitation is particularly problematic in regions where mangroves are highly fragmented due to urbanisation, aquaculture, or partial degradation.
+
+These challenges manifest in three interconnected ways: difficulty in distinguishing small mangrove patches from spectrally similar backgrounds; reliance on extensive manual labelling, which is inefficient and costly in ecologically diverse landscapes; and reduced model robustness when applied to regions with different spatial patterns or fragmentation characteristics. Addressing these issues requires exploration of alternative architectures, multi-scale representations, and weakly supervised or semi-supervised learning strategies.
+
+\subsection{Inadequate Observation of Submerged and Underwater Mangrove Components}
+
+Another critical limitation in current mangrove monitoring approaches relates to the observation of submerged or underwater mangrove components. Most satellite-based remote sensing relies on visible and near-infrared wavelengths, which are strongly attenuated and scattered by water, resulting in limited penetration and reduced accuracy for submerged vegetation. As a result, below-water root structures and early-stage mangrove regeneration in shallow or turbid environments are often poorly characterised or entirely missed.
+
+This sensing limitation constrains the ability to assess mangrove health and restoration potential in intertidal and subtidal zones. Addressing this gap will require integration of alternative sensing strategies, such as UAV-based surveys, acoustic or bathymetric data, and improved fusion of radar and optical observations under varying tidal conditions.
+
+\subsection{Limited Integration of Field Validation and Local Knowledge}
+
+Despite advances in geospatial analysis and machine learning, field validation and integration of local ecological knowledge remain insufficiently incorporated into many mangrove restoration studies. Ground-based observations and community-driven knowledge are essential for validating remotely sensed classifications, understanding site-specific constraints, and identifying feasible restoration pathways.
+
+The absence of systematic field validation can result in restoration suitability maps that are technically accurate yet misaligned with local ecological, hydrological, or socio-economic realities. Future frameworks should therefore emphasise participatory validation, integration of in situ measurements, and collaboration with local stakeholders to ensure that computational outputs translate into effective and context-aware restoration decisions.

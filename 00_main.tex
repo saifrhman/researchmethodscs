@@ -51,8 +51,14 @@
 %using microtype package for better typography
 \usepackage{microtype}
 
+%for better tables
+\usepackage{booktabs}
+
 %improving line breaking
 \setlength{\emergencystretch}{3em}
+
+% Set the depth of section numbering (default is 2, which numbers up to subsections)
+%\setcounter{secnumdepth}{3} 
 
 %----------------------------------------------------------------------------------------
 
@@ -62,13 +68,16 @@
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
-\input{01_abstract}
-\input{02_introduction}
-\input{03_aim}
-\input{04_methodology}
-\input{05_findings}
-\input{06_conclusion}
-
+\input{001_abstract}
+\input{002_introduction}
+\input{003_data_availability}
+\input{004_methodology}
+\input{005_geological_tools}
+\input{006_computational_techniques}
+\input{007_quantitative_synthesis}
+\input{008_research_gaps}
+\input{009_future_work}
+\input{010_conclusion}
 
 \printbibliography % Output the bibliography
 %----------------------------------------------------------------------------------------
