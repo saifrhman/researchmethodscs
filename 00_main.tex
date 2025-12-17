@@ -25,6 +25,10 @@
 	twoside, % Two side traditional mode where headers and footers change between odd and even pages, comment this option to make them fixed
 ]{LTJournalArticle}
 
+\usepackage[
+    backend=biber
+]{biblatex}
+
 \addbibresource{z_references.bib} % BibLaTeX bibliography file
 
 \runninghead{} % A shortened article title to appear in the running head, leave this command empty for no running head
@@ -79,6 +83,8 @@
 \input{009_future_work}
 \input{010_conclusion}
 
+\nocite{*} % For now this fixes the "Empty Bibliography"
+
 \printbibliography % Output the bibliography
-%----------------------------------------------------------------------------------------
+
 \end{document} %
