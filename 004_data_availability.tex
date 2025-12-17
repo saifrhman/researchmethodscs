@@ -4,9 +4,28 @@ Global mangrove datasets underpin large scale conservation assessments and polic
 
 The introduction of time-series datasets marked a significant methodological shift. The Continuous Global Mangrove Forest Cover for the 21st Century (CGMFC-21) provided annual mangrove extent maps from 2000 to 2014 at 30 m resolution, enabling year-by-year analysis of loss and gain (Hamilton \& Casey, 2016). However, CGMFC-21 employed conservative mangrove definitions, resulting in substantially lower area estimates than other products and potentially under-representing sparse or degraded stands.
 
-The Global Mangrove Watch (GMW) initiative represents the most comprehensive effort to date, integrating optical and SAR data to produce multi-epoch and near-global time-series products. The latest release, GMW v4.0, established a 10 m resolution global baseline for 2020 with reported overall accuracy exceeding 95\% (Bunting et al., 2022). This improvement significantly enhances the detection of narrow, fragmented, and small mangrove patches.
+The Global Mangrove Watch (GMW) initiative represents the most comprehensive effort hitherto, integrating optical and SAR data to produce multi-epoch and near-global time-series products. The latest release, GMW v4.0, established a 10 m resolution global baseline for 2020 with reported overall accuracy exceeding 95\% (Bunting et al., 2022). This improvement significantly enhances the detection of narrow, fragmented, and small mangrove patches. Table~\ref{tab:global_datasets} provides a comparative overview of major global mangrove datasets, summarising their release timelines, spatial resolution, temporal coverage, primary data sources, and the ecosystem attributes they capture.
 
-[Figure 1 placeholder: Timeline and comparison of major global mangrove datasets]
+\begin{table*}[t]
+\centering
+\caption{Major global mangrove datasets and their key characteristics}
+\label{tab:global_datasets}
+\begin{tabular}{p{3.2cm} p{1.4cm} p{1.8cm} p{2.5cm} p{3.2cm} p{3.4cm}}
+\toprule
+Dataset & First Release & Spatial Resolution & Temporal Coverage & Primary Data Sources & Mangrove Attributes Captured \\
+\midrule
+Global Mangrove Forests Distribution & 2000 & $\sim$30 m & Circa 2000 & Landsat & Extent \\
+CGMFC-21 & 2014 & $\sim$30 m & 2000--2012 & Landsat-derived products & Annual extent and change \\
+Global Mangrove Watch v2.0 & 2019 & 20--25 m & 1996--2016 & ALOS PALSAR, Landsat & Extent and loss \\
+Global Mangrove Watch v3.0 & 2022 & $\sim$25 m & 1996--2020 & Multi-mission SAR and optical & Extent and temporal dynamics \\
+Global Mangrove Canopy Height Maps & 2020+ & $\sim$30 m & Multi-year & DEM and optical integration & Canopy height and structure \\
+Global Mangrove Soil Carbon Stocks & 2023 & $\sim$30 m & 2020 & Remote sensing and modelling & Soil organic carbon \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+
+
 
 \subsection{Dataset Robustness and Uncertainty}
 Despite methodological advances, global mangrove datasets remain subject to several limitations. Differences in sensor selection, classification algorithms, training data, and mangrove definitions lead to discrepancies in mapped extent, particularly near latitudinal range limits and in transitional ecosystems (Leal \& Spalding, 2024). Temporal gaps between dataset updates may obscure short-term disturbances or rapid regeneration events, while most global products prioritise extent over structural or functional attributes.
