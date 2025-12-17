@@ -25,11 +25,16 @@ Single-modality analyses can therefore produce misleading restoration assessment
 
 Recent advances in multimodal representation learning offer a pathway toward addressing this limitation. Li et al. (2021) demonstrated that integrating multispectral, hyperspectral, and LiDAR data improves multilayer structural mapping, while Bahaduri et al. (2024) showed that channel-level cross-attention enables dynamic alignment between heterogeneous modalities. Channel-level fusion is particularly advantageous in mangrove ecosystems, where data relevance varies spatially and temporally due to cloud cover, tidal state, and sensor availability.
 
-Figure 5 illustrates a conceptual unified multimodal framework designed to integrate spatiotemporal optical data, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral inputs into a shared latent forest representation.
+Figure 5 illustrates a conceptual unified multimodal framework for integrating spatiotemporal optical, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral data into a shared latent forest representation, informed by the multimodal integration strategy proposed by Li et al. (2021).
 
-[Figure 5 placeholder: Conceptual unified multimodal mangrove framework]
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\linewidth]{Figures/unified_framework.png}
+\caption{Unified multimodal framework for mangrove ecosystem assessment.}
+\label{fig:unified_framework}
+\end{figure}
 
-Importantly, this review does not advocate a single architectural solution. Cross-attention transformers, multimodal convolutional networks, graph-based models, hybrid ConvLSTM–Transformer pipelines, and ensemble approaches all represent viable pathways depending on data availability and restoration objectives. The central gap lies not in the absence of individual techniques, but in the lack of end-to-end, restoration-oriented multimodal frameworks explicitly designed to support generalisable and decision-relevant mangrove ecosystem assessment.
+Importantly, this review does not advocate a single architectural solution. Rather, it highlights that a holistic representation of mangrove ecosystem condition cannot be obtained from any single sensing modality, as key attributes such as extent, structure, hydrology, physiological stress, and biochemical composition are captured across complementary optical, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral data sources. Cross-attention transformers, multimodal convolutional networks, graph-based models, hybrid ConvLSTM–Transformer pipelines, and ensemble approaches all represent viable computational pathways depending on data availability and restoration objectives. The central gap lies not in the absence of individual techniques, but in the lack of end-to-end, restoration-oriented multimodal frameworks explicitly designed to fuse these complementary modalities into generalisable and decision-relevant mangrove ecosystem representations.
 
 \subsection{Limitations of CNN-Centric Approaches in Fragmented Mangrove Landscapes}
 
