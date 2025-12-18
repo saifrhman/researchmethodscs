@@ -1,10 +1,10 @@
 \section{Research Gaps}
 \subsection{Regional Bias}
-Most mangrove modelling studies train and evaluate models within a single geographic region. When such models are applied to new regions, performance degradation is expected due to domain shift arising from differences in species composition, canopy structure, sediment characteristics, tidal regimes, and anthropogenic pressures. These factors induce systematic variation in optical reflectance, SAR backscatter, thermal signatures, and structural metrics, resulting in both covariate and concept shift across regions (Li et al., 2021; Leal \& Spalding, 2024).
+Most mangrove modelling studies train and evaluate models within a single geographic region. When such models are applied to new regions, performance degradation is expected due to domain shift arising from differences in species composition, canopy structure, sediment characteristics, tidal regimes, and anthropogenic pressures. These factors induce systematic variation in optical reflectance, SAR backscatter, thermal signatures, and structural metrics, resulting in both covariate and concept shift across regions \cite{li_mapping_2021}, \cite{leal_state_2024}.
 
-Despite these known challenges, explicit cross-region evaluation remains uncommon in the mangrove literature. Only isolated studies have examined transfer learning or domain adaptation, often focusing on narrow biophysical targets such as biochemical traits rather than holistic ecosystem properties (Fu et al., 2025; Wu et al., 2025). Consequently, reported model performance metrics may overestimate generalisability and mask sensitivity to regional heterogeneity.
+Despite these known challenges, explicit cross-region evaluation remains uncommon in the mangrove literature. Only isolated studies have examined transfer learning or domain adaptation, often focusing on narrow biophysical targets such as biochemical traits rather than holistic ecosystem properties (Wu et al., 2025)\cite{fu_cross-scenario_2025}. Consequently, reported model performance metrics may overestimate generalisability and mask sensitivity to regional heterogeneity.%TODO ADD CITATIONS!!!! Wu et al!
 
-This imbalance has direct implications for restoration-oriented applications. Models trained predominantly on data-rich regions, particularly in Asia, risk encoding region-specific correlations rather than ecologically invariant representations. Addressing regional bias is therefore essential for both scientific validity and operational scalability, requiring systematic cross-region benchmarking, transfer learning strategies, and domain-aware evaluation protocols.
+This imbalance has direct implications for restoration-oriented applications. Models trained predominantly on data rich regions, particularly in Asia, risk encoding region specific correlations rather than ecologically invariant representations. Addressing regional bias is therefore essential for both scientific validity and scalability, requiring systematic cross region benchmarking, transfer learning strategies, and domain aware evaluation protocols.
 
 [Figure 4 placeholder: Global distribution of mangrove studies and regional data availability]
 
@@ -14,11 +14,11 @@ A second major research gap is the absence of a unified multimodal forest framew
 Each sensing modality captures a distinct and non-redundant component of forest condition:
 
 \begin{itemize}
-  \item Optical multispectral imagery encodes extent, canopy cover, and phenology (Bunting et al., 2022).
-  \item SAR captures structure, moisture, and inundation dynamics under all-weather conditions (Ghorbanian et al., 2025).
-  \item LiDAR provides direct measurements of three-dimensional canopy architecture and biomass (Li et al., 2021).
-  \item Thermal infrared data reveal physiological stress and hydrological anomalies (Farella et al., 2022).
-  \item Hyperspectral data support biochemical and species-level trait estimation (Fu et al., 2025).
+  \item Optical multispectral imagery encodes extent, canopy cover, and phenology \cite{bunting_global_2022}.
+  \item SAR captures structure, moisture, and inundation dynamics under all-weather conditions \cite{ghorbanian_weakly_2025}.
+  \item LiDAR provides direct measurements of three-dimensional canopy architecture and biomass \cite{li_mapping_2021}.
+  \item Thermal infrared data reveal physiological stress and hydrological anomalies \cite{farella_thermal_2022}.
+  \item Hyperspectral data support biochemical and species-level trait estimation \cite{fu_cross-scenario_2025}.
 \end{itemize}
 
 Single-modality analyses can therefore produce misleading restoration assessments. Intact canopy cover inferred from optical imagery may obscure physiological stress detectable in thermal data, while LiDAR-derived height alone does not capture hydrological constraints or salinity stress. Restoration decisions based on incomplete representations risk misidentifying resilient forests or prioritising unsuitable restoration sites.
@@ -34,7 +34,7 @@ Figure 5 illustrates a conceptual unified multimodal framework for integrating s
 \label{fig:unified_framework}
 \end{figure}
 
-Importantly, this review does not advocate a single architectural solution. Rather, it highlights that a holistic representation of mangrove ecosystem condition cannot be obtained from any single sensing modality, as key attributes such as extent, structure, hydrology, physiological stress, and biochemical composition are captured across complementary optical, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral data sources. Cross-attention transformers, multimodal convolutional networks, graph-based models, hybrid ConvLSTM–Transformer pipelines, and ensemble approaches all represent viable computational pathways depending on data availability and restoration objectives. The central gap lies not in the absence of individual techniques, but in the lack of end-to-end, restoration-oriented multimodal frameworks explicitly designed to fuse these complementary modalities into generalisable and decision-relevant mangrove ecosystem representations.
+Importantly, this review does not advocate a single architectural solution. Rather, it highlights that a holistic representation of mangrove ecosystem condition cannot be obtained from any single sensing modality, as key attributes such as extent, structure, hydrology, physiological stress, and biochemical composition are captured across complementary optical, SAR, LiDAR, thermal infrared, and multispectral or hyperspectral data sources. Cross-attention transformers, multimodal convolutional networks, graph-based models, hybrid ConvLSTM-Transformer pipelines, and ensemble approaches all represent viable computational pathways depending on data availability and restoration objectives. The central gap lies not in the absence of individual techniques, but in the lack of end-to-end, restoration-oriented multimodal frameworks explicitly designed to fuse these complementary modalities into generalisable and decision-relevant mangrove ecosystem representations.
 
 \subsection{Limitations of CNN-Centric Approaches in Fragmented Mangrove Landscapes}
 
